@@ -29,8 +29,8 @@ jobs:
       - uses: actions/cache@v4
         id: cache
         with:
-          key: mkdocs-material-${{ hashFiles('${{ env.DOC_DIR }}/**') }}
-          path: .
+          key: mkdocs-material-${{ hashFiles('mkdocs.yml', 'docs/**') }}
+          path: ${{ env.DOCS_DIR }}
           restore-keys: |
             mkdocs-material-
       - name: Setup Pages
