@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "hkopendata-py"
+version = "0.1.0"
+description = "This project is to provide a Python SDK for Python users to connect to Open Data around Hong Kong."
+authors = ["Alex Au <alexuau922@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.32.3"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.12.0"
+pytest = "^8.3.3"
+pytest-cov = "^5.0.0"
+nox = "^2024.10.9"
+mkdocstrings = {version = "^0.25", extras = ["python"]}
+mkdocs = "^1.6.1"
+
+[tool.poetry.group.async.dependencies]
+aiohttp = "^3.10.10"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
