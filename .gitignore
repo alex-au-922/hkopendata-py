@@ -138,7 +138,10 @@ venv*.bak/
 .ropeproject
 
 # mkdocs documentation
-/site
+/**/site
+
+# ruff
+.ruff_cache/
 
 # mypy
 .mypy_cache/
@@ -166,6 +169,3 @@ cython_debug/
 
 # MacOS
 .DS_Store
-
-# mkdocs
-site/

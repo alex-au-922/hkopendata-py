@@ -10,8 +10,8 @@ theme: readthedocs
 nav:
   - Home: index.md
   - User Guide:
-      - Installation: installation.md
-      - Quick Start: quick-start.md
+      - Installation: user_guides/installation.md
+      - Quick Start: user_guides/quick-start.md
   - API Reference: api-reference.md
   - About:
       - Contributing: about/contributing.md
