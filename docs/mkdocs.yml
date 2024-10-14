@@ -1,5 +1,9 @@
+---
 site_name: hkopendata-py
-site_description: hkopendata-py is a Python package for accessing Hong Kong Open Data API. It provides a simple, type-safe and flexible way to interact with the API.
+site_description: >
+  hkopendata-py is a Python package for accessing Hong Kong
+  Open Data API. It provides a simple, type-safe and flexible
+  way to interact with the API.
 strict: true
 
 theme: readthedocs
